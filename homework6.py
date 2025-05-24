@@ -1,4 +1,3 @@
-
 class car:
     def __init__(self, speed):
         self.speed = speed
@@ -21,11 +20,7 @@ class hs(car):
     def speed(self):
         print(f"корабль пливе  {self.швидкість} км/год.")
 
-
 car = car(120)
 cars = cars(800)
 hs = hs(40)
 
-car.speed()
-cars.speed()
-hs.speed()
